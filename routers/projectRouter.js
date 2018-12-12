@@ -6,7 +6,7 @@ const projectDb = require('../data/helpers/projectModel.js');
         .then(projects => {
             res.json(projects)
         })
-        // Did not work without anonymous function
+       
         .catch(err => {
             res.status(500).json({ message: 'Failed to get projects' })
         })

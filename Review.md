@@ -6,7 +6,7 @@ Node is a runtime environment that allow Javascript to run outside of the browse
 ## What is Express?
 Express is a framework for NodesJS. It is used to create web apps and APIs
 ## Mention two parts of Express that you learned about this week.
-Routers and 
+Routers and Middleware
 ## What is Middleware?
 Middleware is added functionality to Express.
 ## What is a Resource?

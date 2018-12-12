@@ -30,7 +30,7 @@ const router = express.Router();
 })
 
  router.post('/', (req, res) => {
-    // Giving an error when trying to return the updated action
+   
     const action = req.body;
      if (action.project_id && action.description && action.notes) {
         actionDb.insert(action)
